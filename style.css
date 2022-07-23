@@ -1,0 +1,142 @@
+:root {
+  font-size: 15px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: hsl(216deg, 12%, 8%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.rating-card {
+  width: 350px;
+  max-height: 414px;
+  background: linear-gradient(0deg, rgb(23, 30, 40) 0%, rgb(35, 42, 52) 100%);
+  border-radius: 2rem;
+  padding: 2.25rem;
+  padding-bottom: 2rem;
+}
+
+.rating-screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #262f38;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 2rem;
+}
+
+.header {
+  font-size: 1.75rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.rating-card-info {
+  color: #8b919d;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  margin-bottom: 1.75rem;
+}
+
+.rating-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.75rem;
+}
+
+.rating-item {
+  cursor: pointer;
+  background-color: #252d37;
+  font-weight: 700;
+  color: #767f8a;
+  width: 3.5rem;
+  height: 3.5rem;
+  font-size: 1rem;
+  border-radius: 100%;
+}
+.rating-item:hover {
+  background-color: #fc7613;
+  color: white;
+}
+
+.selected {
+  background-color: #7c8898;
+  color: white;
+}
+
+.rating-submit-btn {
+  cursor: pointer;
+  background-color: #fc7613;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  border-radius: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.rating-submit-btn:hover {
+  background-color: white;
+  color: #fc7613;
+}
+
+.thank-you-screen {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thank-you-screen .thank-you-img {
+  padding-top: 1rem;
+}
+.thank-you-screen .thank-you-selected {
+  padding: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.4rem;
+  line-height: 100%;
+  background-color: #252d37;
+  border-radius: 2rem;
+  color: #b36c3e;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.centered {
+  text-align: center;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+@media (max-width: 375px) {
+  .rating-card {
+    padding: 1.5rem;
+    border-radius: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
