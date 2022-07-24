@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-xLfWr6kckS)
 - Live Site URL: [Add live site URL here](https://lrvaka.github.io/FEM-interactive-rating-component/)
 
 ## Author
