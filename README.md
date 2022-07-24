@@ -13,8 +13,6 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [Author](#author)
   - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -39,8 +37,6 @@ Users should be able to:
 
 - Website - [Luke Vakasisikakala](https://lrvaka.com/)
 - Frontend Mentor - [@lrvaka](https://www.frontendmentor.io/profile/lrvaka)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
